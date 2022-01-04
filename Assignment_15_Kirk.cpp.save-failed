@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+// global variables
+const int ARRAY_ZERO = 0;
+
+// function prototypes
+void setZero(int newArray[], int ARRAY_ZERO);
+
+int main ()
+{
+    // variables
+    int alpha[ARRAY_ZERO];
+    int beta[ARRAY_ZERO];
+
+    // body
+    setZero(alpha, ARRAY_ZERO);
+    setZero(beta, ARRAY_ZERO);
+
+    return 0;
+}
+
+// functions
+// initialize and set arrays to 0
+void setZero(int newArray[], int ARRAY_ZERO)
+{
+    for (int index = 0; index = ARRAY_ZERO; index++)
+    {
+        newArray[index] = index;
+        cout << newArray[index] << endl;
+    }
+}
